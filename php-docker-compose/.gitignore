@@ -1,0 +1,8 @@
+.env
+.DS_Store
+.idea/
+.vscode/
+client/
+*.yml
+server/nginx/conf.d/*.conf
+server/php/*.ini

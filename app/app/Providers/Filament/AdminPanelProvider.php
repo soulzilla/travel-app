@@ -17,6 +17,7 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
+use SolutionForest\FilamentTranslateField\FilamentTranslateFieldPlugin;
 
 class AdminPanelProvider extends PanelProvider
 {
@@ -41,9 +42,17 @@ class AdminPanelProvider extends PanelProvider
                 Widgets\FilamentInfoWidget::class,
             ])
             ->plugins([
+                \TomatoPHP\FilamentLanguageSwitcher\FilamentLanguageSwitcherPlugin::make(),
                 \TomatoPHP\FilamentUsers\FilamentUsersPlugin::make(),
                 \BezhanSalleh\FilamentShield\FilamentShieldPlugin::make(),
                 \FilipFonal\FilamentLogManager\FilamentLogManager::make(),
+                \Outerweb\FilamentSettings\Filament\Plugins\FilamentSettingsPlugin::make()
+                    ->pages([
+                        \App\Filament\Pages\Settings\Settings::class,
+                    ]),
+                FilamentTranslateFieldPlugin::make()->defaultLocales([
+                    'en', 'ru', 'kk'
+                ]),
             ])
             ->middleware([
                 EncryptCookies::class,

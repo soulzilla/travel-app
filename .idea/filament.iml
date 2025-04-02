@@ -158,6 +158,9 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filipfonal/filament-log-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/solution-forest/filament-translate-field" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/tomatophp/filament-language-switcher" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

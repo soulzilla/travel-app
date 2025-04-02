@@ -279,6 +279,11 @@
       <path value="$PROJECT_DIR$/app/vendor/pragmarx/google2fa" />
       <path value="$PROJECT_DIR$/app/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/app/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/app/vendor/filipfonal/filament-log-manager" />
+      <path value="$PROJECT_DIR$/app/vendor/outerweb/settings" />
+      <path value="$PROJECT_DIR$/app/vendor/outerweb/filament-settings" />
+      <path value="$PROJECT_DIR$/app/vendor/tomatophp/filament-language-switcher" />
+      <path value="$PROJECT_DIR$/app/vendor/solution-forest/filament-translate-field" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

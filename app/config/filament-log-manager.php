@@ -1,6 +1,6 @@
 <?php
 
-use App\Filament\Pages\System\Logs\Logs;
+use App\Filament\Pages\System\Logs;
 
 return [
     /**

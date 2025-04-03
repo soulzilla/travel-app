@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Pages\System\Settings;
+namespace App\Filament\Pages\System;
 
 use App\Enums\Languages;
 use BezhanSalleh\FilamentShield\Traits\HasPageShield;

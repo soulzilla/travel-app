@@ -48,7 +48,9 @@ class AdminPanelProvider extends PanelProvider
                 \Outerweb\FilamentSettings\Filament\Plugins\FilamentSettingsPlugin::make()->pages([
                     \App\Filament\Pages\System\Settings\Settings::class,
                 ]),
+                \TomatoPHP\FilamentArtisan\FilamentArtisanPlugin::make()
             ])
+            ->globalSearch()
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,

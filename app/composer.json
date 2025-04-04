@@ -18,7 +18,8 @@
         "tomatophp/filament-artisan": "^1.1",
         "tomatophp/filament-icons": "^1.1",
         "tomatophp/filament-language-switcher": "*",
-        "tomatophp/filament-users": "^2.0"
+        "tomatophp/filament-users": "^2.0",
+        "zircote/swagger-php": "^5.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",

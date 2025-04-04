@@ -161,6 +161,11 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/filipfonal/filament-log-manager" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/solution-forest/filament-translate-field" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/tomatophp/filament-language-switcher" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/calebporzio/sushi" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/pxlrbt/filament-environment-indicator" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/tomatophp/filament-artisan" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/tomatophp/filament-developer-gate" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/tomatophp/filament-icons" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

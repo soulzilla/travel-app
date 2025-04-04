@@ -284,6 +284,11 @@
       <path value="$PROJECT_DIR$/app/vendor/outerweb/filament-settings" />
       <path value="$PROJECT_DIR$/app/vendor/tomatophp/filament-language-switcher" />
       <path value="$PROJECT_DIR$/app/vendor/solution-forest/filament-translate-field" />
+      <path value="$PROJECT_DIR$/app/vendor/calebporzio/sushi" />
+      <path value="$PROJECT_DIR$/app/vendor/pxlrbt/filament-environment-indicator" />
+      <path value="$PROJECT_DIR$/app/vendor/tomatophp/filament-icons" />
+      <path value="$PROJECT_DIR$/app/vendor/tomatophp/filament-artisan" />
+      <path value="$PROJECT_DIR$/app/vendor/tomatophp/filament-developer-gate" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

@@ -6,9 +6,21 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Ramsey\Uuid\UuidInterface;
 use Spatie\Permission\Traits\HasRoles;
 use TomatoPHP\FilamentLanguageSwitcher\Traits\InteractsWithLanguages;
 
+/**
+ * @property UuidInterface $id
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @property string $remember_token
+ * @property \Illuminate\Support\Carbon $email_verified_at
+ * @property \Illuminate\Support\Carbon $created_at
+ * @property \Illuminate\Support\Carbon $updated_at
+ * @property \Illuminate\Support\Carbon $deleted_at
+ */
 class User extends Authenticatable
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */

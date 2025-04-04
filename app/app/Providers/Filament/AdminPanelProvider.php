@@ -42,14 +42,14 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->plugins([
                 \TomatoPHP\FilamentLanguageSwitcher\FilamentLanguageSwitcherPlugin::make(),
-                \pxlrbt\FilamentEnvironmentIndicator\EnvironmentIndicatorPlugin::make(),
+//                \pxlrbt\FilamentEnvironmentIndicator\EnvironmentIndicatorPlugin::make(),
                 \TomatoPHP\FilamentUsers\FilamentUsersPlugin::make(),
                 \BezhanSalleh\FilamentShield\FilamentShieldPlugin::make(),
                 \FilipFonal\FilamentLogManager\FilamentLogManager::make(),
                 \Outerweb\FilamentSettings\Filament\Plugins\FilamentSettingsPlugin::make()->pages([
                     \App\Filament\Pages\System\Settings::class,
                 ]),
-                \TomatoPHP\FilamentArtisan\FilamentArtisanPlugin::make(),
+                \App\Filament\Plugins\ArtisanPlugin::make(),
             ])
             ->globalSearch()
             ->middleware([
